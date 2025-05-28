@@ -1,0 +1,55 @@
+.curation1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 1440px;
+}
+
+div > img{
+  background-image: url(../img/Untitled-3.png);
+  width: 1903px;
+}
+
+div h2 {
+  margin-bottom: 30px;
+}
+
+div h2::before {
+  content: '';
+  background-image: url(../img/svg/Untitled-3-01.svg);
+  display: block;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div ul {
+  display: flex;
+  gap: 20px;
+}
+
+.ebtn {
+  margin-top: 50px;
+  height: fit-content;
+  flex-direction: row;
+  gap: 100px;
+  display: flex;
+}
+
+.slick-track{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+}
+
+.slick-slide {
+  width: 250px; /* 또는 auto, 또는 각기 다른 px */
+}
+.slick-list{
+  height: 100%;
+  width: 1440px;
+}

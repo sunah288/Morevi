@@ -1,0 +1,19 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- 쿠폰 배경 -->
+  <rect x="10" y="10" rx="15" ry="15" width="280" height="100" fill="#fff4e5" stroke="#ffa726" stroke-width="3"/>
+
+  <!-- 점선 절취선 -->
+  <line x1="100" y1="10" x2="100" y2="110" stroke="#ffa726" stroke-dasharray="6,6" stroke-width="2"/>
+
+  <!-- 왼쪽 중앙의 % 기호 -->
+  <text x="60" y="60" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial, sans-serif" font-size="36" fill="#ff7043" font-weight="bold">
+    %
+  </text>
+
+  <!-- 오른쪽 중앙의 COUPON 텍스트 -->
+  <text x="200" y="60" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial, sans-serif" font-size="32" fill="#333" font-weight="bold">
+    COUPON
+  </text>
+</svg>

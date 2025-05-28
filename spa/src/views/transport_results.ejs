@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  
+  <title>교통 검색 결과</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .no-results {
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>교통 검색 결과</h1>
+
+  <p>
+    출발지: <strong><%= query.departure %></strong> / 
+    도착지: <strong><%= query.arrival %></strong> / 
+    여행 날짜: <strong><%= query.travelD %></strong>
+  </p>
+
+  <% if (results.length === 0) { %>
+    <p class="no-results">검색 결과가 없습니다.</p>
+  <% } else { %>
+    <table>
+      <thead>
+        <tr>
+          <th>출발지</th>
+          <th>도착지</th>
+          <th>교통편</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% results.forEach(function(item) { %>
+          <tr>
+            <td><%= item.departure %></td>
+            <td><%= item.arrival %></td>``
+            <td><%= item.transname %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  <% } %>
+
+  <a href="http://127.0.0.1:3000/">돌아가기</a>
+</body>
+</html>

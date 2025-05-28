@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 상자 본체 -->
+  <rect x="40" y="80" width="120" height="100" rx="10" fill="#FFD966" stroke="#D6AC00" stroke-width="4"/>
+
+  <!-- 상자 뚜껑 -->
+  <rect x="30" y="60" width="140" height="30" rx="6" fill="#F4B400" stroke="#D6AC00" stroke-width="4"/>
+
+  <!-- 리본 수직 -->
+  <rect x="95" y="60" width="10" height="120" fill="#EA4335"/>
+
+  <!-- 리본 수평 -->
+  <rect x="30" y="95" width="140" height="10" fill="#EA4335"/>
+
+  <!-- 리본 매듭 왼쪽 -->
+  <path d="M100 60 C85 40, 65 40, 60 60 C65 55, 85 55, 100 60" fill="#EA4335"/>
+
+  <!-- 리본 매듭 오른쪽 -->
+  <path d="M100 60 C115 40, 135 40, 140 60 C135 55, 115 55, 100 60" fill="#EA4335"/>
+</svg>
