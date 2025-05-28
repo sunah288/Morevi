@@ -1,0 +1,118 @@
+#login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login .wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 350px;
+  position: relative;
+  text-align: center;
+}
+
+#login .wrap .login-close {
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+#login .wrap h2 {
+  
+}
+
+#login .wrap p {
+  display: flex;
+  justify-content: center;
+}
+
+#login .wrap form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 140px;
+}
+
+#login .wrap form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#login .wrap form input:focus {
+  outline: none;
+}
+
+#login .wrap form .login-btn {
+  padding: 10px;
+  background-color: #6d5c5c;
+}
+
+#login .wrap .login-links {
+  display: flex;
+}
+
+#login .wrap .login-links li {
+  display: flex;
+}
+
+#login .wrap .login-links li a {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login .wrap .login-links li span {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login .wrap .login-sns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#login .wrap .login-sns li {
+
+}
+
+#login .wrap .login-sns li a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#login .wrap .login-sns li:nth-of-type(1) a {
+  background-image: url(../img/svg/kakaotalk.svg);
+}
+
+#login .wrap .login-sns li:nth-of-type(2) a {
+  background-image: url(../img/svg/naver.svg);
+}
+
+#login .wrap .login-sns li:nth-of-type(3) a {
+  background-image: url(../img/svg/apple.svg);
+}

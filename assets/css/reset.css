@@ -1,0 +1,53 @@
+/* reset */
+html, body {
+  height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+:lang(en) {
+  font-family: "Aleo", serif;
+  vertical-align: middle;
+  line-height: 1.2;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+span {
+  height: 100%;
+  display: flex;
+  width: fit-content;
+}

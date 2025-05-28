@@ -1,0 +1,153 @@
+#reservation {
+  height: calc(100% - 270px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reservation .wrap {
+  width: 500px;
+  height: 550px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.1),  
+  5px 0 15px rgba(0,0,0,0.1),   
+  -5px 0 15px rgba(0,0,0,0.1),  
+  0 10px 30px rgba(0,0,0,0.15); 
+  border-radius: 20px;
+}
+
+#reservation .wrap h2 {
+
+}
+
+#reservation .wrap ul {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+#reservation .wrap ul li {
+
+  width: 100%;
+}
+
+#reservation .wrap ul li button {
+  background-color: #b9b9b9;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+}
+
+.tab-active {
+  background-color: #6d5c5c !important;
+}
+
+#reservation .wrap form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#emailForm {
+  
+}
+
+#emailForm label {
+
+}
+
+#emailForm label input {
+  
+}
+
+#pinForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#pinForm label {
+  
+}
+
+#pinForm label input {
+  
+}
+
+#emailForm label, #pinForm label {
+  width: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#emailForm label span, #pinForm label span {
+  display: flex;
+  padding: 10px;
+  width: 500px;
+  align-items: center;
+}
+
+#pinForm label span span {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  /*! font-size: 19px; */
+  padding: 0;
+}
+
+#emailForm label input, #pinForm label input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#emailForm label input:focus, #pinForm label input:focus {
+  outline: none;
+}
+
+#searchBtn {
+  background-color: #6d5c5c;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+#resultBox {
+
+  /*! transform: translateY(20px); */
+}
+
+#resultBox h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #4343f5;
+}
+
+#resultBox .bord {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 15px;
+  box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  padding: 20px;
+}
+#resultInfo{
+  
+}
+#resultInfo p{
+  color: #f53535;
+}
+
+#resultBox div p {
+  display: flex;
+}

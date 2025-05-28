@@ -1,0 +1,79 @@
+#event {
+  height: calc(420px - 120px);
+  min-height: auto;
+}
+
+#event .wrap {
+  height: 100%;
+  width: 1440px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+#event .wrap > ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  padding: 10px;
+  width: 1440px;
+}
+
+#event .wrap ul li {
+  height: 150px;
+  background-color: antiquewhite;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+#event .wrap ul li.even {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#event .wrap ul li.even1 {
+  background-image: url(../img/svg/event1.svg);
+}
+
+#event .wrap ul li.even2 {
+  background-image: url(../img/svg/event2.svg);
+}
+
+#event .wrap ul li.even3 {
+  background-image: url(../img/svg/event3.svg);
+}
+
+#event .wrap ul li.even4 {
+  background-image: url(../img/svg/event4.svg);
+}
+
+#event .wrap ul li.even5 {
+  background-image: url(../img/svg/event5.svg);
+}
+
+#event .wrap ul li.even6 {
+  background-image: url(../img/svg/event6.svg);
+}
+
+#event .wrap ul li.even7 {
+  background-image: url(../img/svg/event7.svg);
+}
+
+#event .wrap ul li.even8 {
+  background-image: url(../img/svg/event8.svg);
+}
+
+#event .wrap ul li.even9 {
+  background-image: url(../img/svg/event9.svg);
+}
+
+#event .wrap ul li a {
+  width: 100%;
+  display: block;
+  height: 100%;
+  font-size: 0;
+}

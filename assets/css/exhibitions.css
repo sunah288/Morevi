@@ -1,0 +1,132 @@
+#exhibitions .wrap {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#exhibitions .wrap h2 {
+  margin-bottom: 25px;
+}
+
+#exhibitions .wrap .dots {
+  position: relative;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+#exhibitions .slick-dots {
+  bottom: 0;
+  left: 0;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#exhibitions .slick-dots li {
+  width: 165px;
+  height: 40px;
+}
+
+#exhibitions .slick-dots li button {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+#exhibitions .slick-dots li button::before {
+  content: "";
+}
+
+#exhibitions .slick-dots li button:hover {
+  background-color: #6d5c5c;
+  color: #fff;
+  transition: 0.5s;
+  border: 0;
+}
+
+#exhibitions .wrap .st-slick {
+  
+}
+
+#exhibitions .wrap .st-slick li {
+  display: flex;
+}
+
+#exhibitions .wrap .st-slick li img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+#exhibitions .wrap .st-slick li ul {
+  width: calc(50% - 100px);
+  padding: 40px 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#exhibitions .wrap .st-slick li ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+#exhibitions .wrap .st-slick li ul li:nth-of-type(1) {
+  height: 50%;
+  gap: 40px;
+}
+
+#exhibitions .wrap .st-slick li ul li:nth-of-type(1) h3 {
+
+}
+
+#exhibitions .wrap .st-slick li ul li:nth-of-type(1) p {
+
+}
+
+#exhibitions .wrap .st-slick li ul li:nth-of-type(2) {
+
+}
+
+#exhibitions .wrap .st-slick li ul li:nth-of-type(3) {
+
+}
+
+#exhibitions .wrap .st-slick li ul li:nth-of-type(2), #exhibitions .wrap .st-slick li ul li:nth-of-type(3) {
+  height: 25%;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7fafc;
+  border-radius: 10px;
+}
+
+#exhibitions .wrap .st-slick li ul li img {
+  width: 150px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#exhibitions .wrap .st-slick li ul li a {
+  margin-left: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#exhibitions .wrap .st-slick li ul li a h4 {
+
+}
+
+#exhibitions .wrap .st-slick li ul li a p {
+
+}
+
+#exhibitions .wrap .st-slick li ul li a span {
+  font-weight: bold;
+}

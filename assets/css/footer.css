@@ -1,0 +1,84 @@
+footer {
+  height: 150px;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+footer div.mfo {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
+  height: 100%;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+
+footer div.mfo h2 {
+  grid-row: 1;
+  grid-column: 1 /span 2;
+  color: #6d5c5c;
+  font-weight: 300;
+}
+
+footer div.mfo ul {
+  
+  display: flex;
+  grid-row: 2;
+  grid-column: 1 /span 2;
+  gap: 40px;
+}
+
+footer div.mfo ul li {
+  
+}
+
+footer div.mfo ul li a {
+  
+}
+
+footer div.mfo div.text {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+footer div.mfo div.text p {
+  display: flex;
+  padding: 4px 0;
+}
+
+footer div.mfo div.sns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+footer div.mfo div.sns a {
+  font-size: 0;
+}
+
+footer div.mfo div.sns a::after {
+  content:"";
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+footer div.mfo div.sns a:nth-child(1)::after {
+  background-image: url(../img/svg/instagram.svg);
+}
+
+footer div.mfo div.sns a:nth-child(2)::after {
+  background-image: url(../img/svg/kakaotalk.svg);
+}
+
+footer div.mfo div.sns a:nth-child(3)::after {
+  background-image: url(../img/svg/naver.svg);
+}
+.sns {
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}

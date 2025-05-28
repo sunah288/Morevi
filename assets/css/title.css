@@ -1,0 +1,238 @@
+#title {
+  height: calc(100% - 120px);
+}
+
+#title .wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#title .wrap .title-form {
+  width: 300px;
+  height: 350px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #e6e6e6;
+  position: absolute;
+  left: 250px;
+  z-index: 10;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#title .wrap .title-form li {
+  
+}
+
+#title .wrap .title-form > li:nth-of-type(odd) {
+  height: 25%;
+}
+
+#title .wrap .title-form > li:nth-child(2) {
+  height: 50%;
+  transform: translateY(-20px);
+}
+
+#title .wrap .title-form li .form-btn {
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+
+#title .wrap .title-form li .form-btn a {
+  color: gray;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title .wrap .title-form li .form-btn a:nth-of-type(2) {
+  position: relative;
+}
+
+#title .wrap .title-form li .form-btn a:nth-of-type(2)::before {
+  content: "";
+  background-color: #000;
+  width: 1px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+}
+
+.form-btn a.active {
+  color: #000 !important;
+}
+
+#title .wrap .title-form li form {
+  
+}
+
+#lodging {
+  height: 100%;
+}
+
+#lodging .accom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+#lodging .accom li {
+  height: 50px;
+}
+
+#lodging .accom li:nth-of-type(2) {
+  display: flex;
+}
+
+#lodging .accom li:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lodging .accom li label, #transport .traffic li label {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #fff;
+  justify-content: center;
+}
+
+#lodging .accom li:nth-of-type(1) label {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#lodging .accom li:nth-of-type(2) label {
+  width: 50%;
+}
+
+#lodging .accom li:nth-of-type(2) label:nth-of-type(1) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#lodging .accom li:nth-of-type(2) label:nth-of-type(2) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#lodging .accom li:nth-of-type(3) label {
+  width: 50%;
+}
+
+#lodging .accom li:nth-of-type(3) label:nth-of-type(1) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#lodging .accom li:nth-of-type(3) label:nth-of-type(2) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#transport {
+  height: 100%;
+  display: none;
+}
+
+#transport .traffic {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+#transport .traffic li {
+  height: 50px;
+  width: 100%;
+}
+
+#transport .traffic li label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#transport .traffic li label:nth-of-type(1) {
+  
+}
+
+#transport .traffic li label:nth-of-type(2) {
+  
+}
+
+#transport .traffic li label:nth-of-type(3) {
+  justify-content: none;
+}
+
+#lodging .accom li label p, #transport .traffic li label p {
+ width: fit-content; 
+}
+
+#lodging .accom li label input, #transport .traffic li label input {
+  border: none;
+  height: 100%;
+}
+
+#lodging .accom li label input:focus, #transport .traffic li label input:focus {
+  outline: none;
+}
+
+#lodging .accom li label select, #transport .traffic li label select {
+  border: none;
+  background-color: transparent;
+}
+
+#lodging .accom li label select:focus, #transport .traffic li label select:focus {
+  outline: none;
+}
+
+#title .wrap .title-form li:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+}
+
+#title .wrap .title-form li:nth-of-type(3) button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #6d5c5c;
+  margin-bottom: 20px;
+}
+
+#title img {
+  border-radius: 10px;
+  position: absolute;
+  right: 100px;
+  width: 800px;
+  height: 450px;
+}
