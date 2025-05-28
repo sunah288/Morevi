@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/reset.css" />
+  <link rel="stylesheet" href="../assets/css/layout.css" />
+  <link rel="stylesheet" href="../assets/css/header.css" />
+  <link rel="stylesheet" href="../assets/css/login.css" />
+  <link rel="stylesheet" href="../assets/css/reservation.css" />
+  <link rel="stylesheet" href="../assets/css/footer.css" />
+
+  <!-- js -->
+  <script src="../assets/js/reservation.js"></script>
+  <script src="../assets/js/login.js"></script>
+
+  <title>예약 내역 확인</title>
+</head>
+<body>
+  <header></header>
+  <div id="login"></div>
+  <main>
+    <section id="reservation">
+      <div class="wrap">
+        <h2 class="h2">예약 내역 확인</h2>
+        <ul>
+          <li><button class="tab-active">E-mail 조회</button></li>
+          <li><button>예약번호 & PIN 번호 조회</button></li>
+        </ul>
+        <form id="emailForm" method="get">
+          <label for="emailInput">
+            <span>이메일 주소</span>
+            <input type="email" name="email" id="emailInput" placeholder="E-mail" />
+          </label>
+        </form>
+        <form id="pinForm" method="get">
+          <label for="reservationNum">
+            <span>예약번호</span>
+            <input type="text" name="reservationNum" id="reservationNum" placeholder="예: M123456">
+          </label>
+          <label for="pinInput">
+            <span>PIN 번호</span>
+            <input type="password" name="pinInput" id="pinInput" placeholder="숫자 4자리">
+          </label>
+        </form>
+        <button id="searchBtn" type="submit">조회</button>
+        <div id="resultBox">
+          <h3 class="h3">예약 정보</h3>
+          <div id="resultInfo">
+            <!-- JS로 결과가 들어올 부분 -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>

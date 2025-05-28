@@ -1,0 +1,75 @@
+<script src="assets/js/title.js"></script>
+<div class="wrap">
+  <ul class="title-form">
+    <li>
+      <div class="form-btn">
+        <a href="" class="active" data-target="#lodging">숙박</a>
+        <a href="" data-target="#transport">교통</a>
+      </div>
+    </li>
+    <li>
+      <form action="/search/lodging" method="GET" id="lodging" name="lodging">
+        <ul class="accom">
+          <li>
+            <label for="destination">
+              <p class="p">목적지</p>
+              <select id="destination" name="destination">
+                <option value="" disabled selected hidden>목적지 선택</option>
+              </select>
+            </label>
+          </li>
+          <li>
+            <label for="checkin">
+              <p class="p">체크인</p>
+              <input type="date" id="checkin" name="checkin">
+            </label>
+            <label for="checkout">
+              <p class="p">체크아웃</p>
+              <input type="date" id="checkout" name="checkout">
+            </label>
+          </li>
+          <li>
+            <label for="adult">
+              <p class="p">성인</p>
+              <select id="adult" name="adult"></select>
+            </label>
+            <label for="child">
+              <p class="p">어린이</p>
+              <select id="child" name="child"></select>
+            </label>
+          </li>
+        </ul>
+      </form>
+      <form action="/search/transport" method="GET" id="transport" name="transport">
+        <ul class="traffic">
+          <li>
+            <label for="departure">
+              <p class="p">출발지</p>
+              <select id="departure" name="departure">
+                <option value="" disabled selected hidden>출발지 선택</option>
+              </select>
+            </label>
+          </li>
+          <li>
+            <label for="arrival">
+              <p class="p">도착지</p>
+              <select id="arrival" name="arrival">
+                <option value="" disabled selected hidden>도착지 선택</option>
+              </select>
+            </label>
+          </li>
+          <li>
+            <label for="travelD">
+              <p class="p">여행 날짜</p>
+              <input type="date" id="travelD" name="travelD">
+            </label>
+          </li>
+        </ul>
+      </form>
+    </li>
+    <li>
+      <button type="submit">검색하기</button>
+    </li>
+  </ul>
+  <img src="../assets/img/trevel1.jpg" alt="사진">
+</div>
